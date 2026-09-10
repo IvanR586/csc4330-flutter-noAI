@@ -106,7 +106,7 @@ class _MyHomePageState extends State<MyHomePage> {
           children: [
             const Text('Ivan has pushed this button this amount of times',
               style: TextStyle(
-                fontSize: 124.0, // Adjust this number to make it bigger
+                fontSize: 34.0, // Adjust this number to make it bigger
                 fontWeight: FontWeight.bold, // Optional: makes it bold too
               ),
             ),
