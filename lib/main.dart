@@ -104,6 +104,12 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: .center,
           children: [
+            const Icon(
+              Icons.sports_soccer,
+              size: 120,
+              semanticLabel: 'Soccer ball',
+            ),
+            const SizedBox(height: 24),
             const Text('Ivan has pushed this button this amount of times',
               style: TextStyle(
                 fontSize: 34.0, // Adjust this number to make it bigger
